@@ -3,14 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Aferta
-    </title>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Impronta</title>
 </head>
 <body>
+    <header>
+    <div class="contenedor encabezado-contenedor">
+        <strong class="logo">
+            <span class="marcador-posicion logo-marcador">[ LOGOTIPO ]</span>
+        </strong>
+        <nav class="zona-navegacion">
+            <input type="checkbox" id="control-menu" class="control-menu">
+            <ul class="menu-navegacion">
+                <li><a href="#" class="activo">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <a href="#" class="boton boton-acento encabezado-boton-llamada">Presupuesto Gratis</a>
+            <label for="control-menu" class="alternar-menu" aria-label="Alternar menú">
+                <span class="icono-hamburguesa">☰</span>
+                <span class="icono-cerrar">✕</span>
+            </label>
+        </nav>
+    </div>
+</header>
     <main>
-        <p>
-            Hola, mundo!
-        </p>
+        <section class="hero">
+            <div class="contenedor hero-cuadrícula">
+                <div class="hero-texto">
+                    <h1>Imprimimos tus ideas, diseñamos tu éxito</h1>
+                    <p>Servicios profesionales de diseño gráfico y soluciones de impresión digital, offset y gran formato con acabados premium y entrega garantizada.</p>
+                    <a href="#" class="boton boton-acento">Ver Servicios</a>
+                </div>
+                <figure class="hero-contenedor-imagen">
+                    <div class="marcador-posicion hero-marcador">
+                        [ Imagen Principal: Maquinaria de Impresión / Pantalla con Diseño ]
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <section class="servicios">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Nuestros Servicios Destacados</h2>
+                <p class="subtitulo-seccion">Soluciones integrales adaptadas a las necesidades de tu marca o negocio bajo los más altos estándares de calidad.</p>
+                
+                <div class="servicios-cuadrícula">
+                    <article class="tarjeta-servicio">
+                        <span class="marcador-posicion servicio-icono">[ Icono ]</span>
+                        <h3>Diseño Gráfico</h3>
+                        <p>Identidad corporativa, branding, logotipos y desarrollo visual de marca.</p>
+                        <a href="#">Saber más &rarr;</a>
+                    </article>
+
+                    <article class="tarjeta-servicio">
+                        <span class="marcador-posicion servicio-icono">[ Icono ]</span>
+                        <h3>Impresión Digital / Offset</h3>
+                        <p>Tarjetas de visita, folletos, flyers, catálogos y papelería corporativa.</p>
+                        <a href="#">Saber más &rarr;</a>
+                    </article>
+
+                    <article class="tarjeta-servicio">
+                        <span class="marcador-posicion servicio-icono">[ Icono ]</span>
+                        <h3>Gran Formato</h3>
+                        <p>Vinilos comerciales, lonas publicitarias, roll-ups y cartelería exterior.</p>
+                        <a href="#">Saber más &rarr;</a>
+                    </article>
+
+                    <article class="tarjeta-servicio">
+                        <span class="marcador-posicion servicio-icono">[ Icono ]</span>
+                        <h3>Merchandising</h3>
+                        <p>Camisetas personalizadas, tazas, bolígrafos y regalos de empresa únicos.</p>
+                        <a href="#">Saber más &rarr;</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="ventajas">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">¿Por qué elegirnos?</h2>
+                <p class="subtitulo-seccion">Nos comprometemos con el resultado de cada proyecto como si fuera nuestro.</p>
+                
+                <div class="ventajas-cuadrícula">
+                    <div class="ventaja-elemento">
+                        <span class="marcador-posicion ventaja-icono">[ Icono ]</span>
+                        <h3>Rapidez 24h/48h</h3>
+                        <p>Cumplimos rigurosamente con los plazos de entrega pactados.</p>
+                    </div>
+
+                    <div class="ventaja-elemento">
+                        <span class="marcador-posicion ventaja-icono">[ Icono ]</span>
+                        <h3>Calidad Premium</h3>
+                        <p>Equipos de última generación y materiales de primera clase.</p>
+                    </div>
+
+                    <div class="ventaja-elemento">
+                        <span class="marcador-posicion ventaja-icono">[ Icono ]</span>
+                        <h3>Revisión Gratuita</h3>
+                        <p>Analizamos tus archivos antes de imprimir para evitar errores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo-seccion">Proyectos Recientes</h2>
+                <p class="subtitulo-seccion">Una pequeña muestra de nuestros últimos trabajos de diseño e impresión.</p>
+
+                <div class="portafolio-cuadrícula">
+                    <span class="marcador-posicion portafolio-elemento">[ Trabajo de Branding/Logo ]</span>
+                    <span class="marcador-posicion portafolio-elemento">[ Impresión de Catálogo ]</span>
+                    <span class="marcador-posicion portafolio-elemento">[ Montaje de Vinilo Corporativo ]</span>
+                    <span class="marcador-posicion portafolio-elemento">[ Packaging / Cajas Personalizadas ]</span>
+                    <span class="marcador-posicion portafolio-elemento">[ Diseño de Cartelería Evento ]</span>
+                    <span class="marcador-posicion portafolio-elemento">[ Línea de Merchandising Ropa ]</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonios">
+            <blockquote class="contenedor testimonio-contenedor">
+                <p class="testimonio-texto">"Cita de la empresa"</p>
+                <cite class="testimonio-autor">— Nombre Apellidos | Puesto de trabajo</cite>
+            </blockquote>
+        </section>
     </main>
+    <footer>
+        <div class="contenedor pie-cuadrícula">
+            <div class="pie-columna">
+                <h4>Estudio Impresión</h4>
+                <p>Tu partner de confianza para soluciones visuales, gráficas y de imprenta de alta definición.</p>
+            </div>
+            <div class="pie-columna">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nuestros Servicios</a></li>
+                    <li><a href="#">Blog de Tendencias</a></li>
+                    <li><a href="#">Contacto y Ubicación</a></li>
+                </ul>
+            </div>
+            <div class="pie-columna">
+                <h4>Contacto</h4>
+                <address>
+                    <p>📍 Av. de la -----, XX - Madrid</p>
+                    <p>📞 +34 012 345 678</p>
+                    <p>✉️ improntainfo@gmail.com</p>
+                </address>
+            </div>
+        </div>
+        <div class="pie-inferior">
+            <p>&copy; 2026 Estudio de Impresión y Diseño Gráfico. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
 </html>
