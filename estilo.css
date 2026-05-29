@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #EAEAEA;
     color: #333333;
     line-height: 1.6;
@@ -11,6 +13,18 @@ body {
     padding: 0;
     width: 100%;
     overflow-x: hidden;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+strong, b, .texto-resaltado {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.texto-tecnico, code, pre, table td {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .contenedor {
@@ -153,14 +167,18 @@ header {
 }
 
 .hero-texto h1 {
-    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.75rem;
     color: #1A3668;
     line-height: 1.2;
     margin: 0 0 15px 0;
 }
 
 .hero-texto p {
-    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
     color: #333333;
     margin-bottom: 25px;
 }
@@ -182,13 +200,17 @@ header {
 }
 
 .titulo-seccion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #1A3668;
     margin-bottom: 10px;
 }
 
 .subtitulo-seccion {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     text-align: center;
     color: #333333;
     margin-bottom: 40px;
@@ -216,20 +238,27 @@ header {
 }
 
 .servicio-icono {
-    width: 60px;
-    height: 60px;
+    width: 100px; 
+    height: 100px;
     margin: 0 auto 20px auto;
     border: 2px solid #3CB371;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .tarjeta-servicio h3 {
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
     color: #1A3668;
     margin-bottom: 12px;
 }
 
 .tarjeta-servicio p {
-    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
     color: #333333;
     margin-bottom: 15px;
 }
@@ -265,20 +294,27 @@ header {
 }
 
 .ventaja-icono {
-    width: 50px;
-    height: 50px;
+    width: 80px; 
+    height: 80px;
     margin: 0 auto 15px auto;
     border: 2px solid #3CB371;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ventaja-elemento h3 {
-    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.35rem;
     color: #1A3668;
     margin-bottom: 8px;
 }
 
 .ventaja-elemento p {
-    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
     color: #333333;
 }
 
@@ -352,9 +388,11 @@ footer {
 }
 
 .pie-columna h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #ffffff;
     margin-bottom: 15px;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .pie-columna ul {
@@ -386,7 +424,7 @@ address {
 }
 
 .pagina-privacidad {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #EAEAEA;
     color: #333333;
     line-height: 1.6;
@@ -498,8 +536,10 @@ address {
 }
 
 .pagina-privacidad .titulo-seccion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.75rem;
     color: #1A3668;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -508,10 +548,11 @@ address {
 }
 
 .pagina-privacidad .subtitulo-seccion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-align: center;
     color: #333333;
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1.75rem;
     margin-bottom: 40px;
     max-width: 800px;
     margin-left: auto;
@@ -542,7 +583,9 @@ address {
 }
 
 .pagina-privacidad .tarjeta-servicio h3 {
-    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
     color: #1A3668;
     margin-top: 0;
     margin-bottom: 15px;
@@ -551,7 +594,9 @@ address {
 }
 
 .pagina-privacidad .tarjeta-servicio p {
-    font-size: 0.95rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
     color: #333333;
     margin-bottom: 15px;
 }
@@ -590,6 +635,8 @@ address {
 }
 
 .pagina-privacidad .pie-columna h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #ffffff;
     margin-bottom: 15px;
     font-size: 1rem;
@@ -622,7 +669,7 @@ address {
 }
 
 .pagina-cookies {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #EAEAEA;
     color: #333333;
     line-height: 1.6;
@@ -724,8 +771,10 @@ address {
 }
 
 .pagina-cookies .titulo-seccion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.75rem;
     color: #1A3668;
     margin: 0 0 15px 0;
     text-transform: uppercase;
@@ -733,16 +782,18 @@ address {
 }
 
 .pagina-cookies .subtitulo-seccion {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     text-align: center;
     color: #333333;
-    font-size: 1.1rem;
+    font-size: 1.75rem;
     margin: 0 auto 40px auto;
     max-width: 900px;
 }
 
 .pagina-cookies .servicios-cuadrícula {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 
@@ -759,7 +810,9 @@ address {
 }
 
 .pagina-cookies .tarjeta-servicio h3 {
-    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
     color: #1A3668;
     margin-top: 0;
     margin-bottom: 15px;
@@ -769,7 +822,9 @@ address {
 }
 
 .pagina-cookies .tarjeta-servicio p {
-    font-size: 0.95rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
     color: #333333;
     margin-bottom: 15px;
 }
@@ -780,42 +835,60 @@ address {
 
 .pagina-cookies .tabla-contenedor {
     width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
     margin-top: 20px;
-    border: 1px solid #333333;
+    border: 2px solid #333333;
     border-radius: 4px;
-    display: block;
-    clear: both;
+    overflow: hidden;
 }
 
 .pagina-cookies table {
     width: 100%;
     border-collapse: collapse;
-    text-align: left;
     background: #ffffff;
-    min-width: 580px;
 }
 
-.pagina-cookies th {
-    background-color: #1A3668;
-    color: #ffffff;
-    padding: 14px 12px;
-    font-weight: 600;
-    font-size: 0.95rem;
+.pagina-cookies thead {
+    display: none;
+}
+
+.pagina-cookies tbody, 
+.pagina-cookies tr, 
+.pagina-cookies td {
+    display: block;
+    width: 100%;
+}
+
+.pagina-cookies tr {
+    border-bottom: 2px solid #333333;
+}
+
+.pagina-cookies tr:last-child {
+    border-bottom: none;
 }
 
 .pagina-cookies td {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
     padding: 12px;
-    border-top: 1px solid #333333;
-    border-right: 1px solid #EAEAEA;
+    border-bottom: 1px solid #EAEAEA;
     color: #333333;
-    font-size: 0.9rem;
-    vertical-align: top;
+    text-align: left;
 }
 
 .pagina-cookies td:last-child {
-    border-right: none;
+    border-bottom: none;
+}
+
+.pagina-cookies td::before {
+    content: attr(data-label);
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #1A3668;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 4px;
 }
 
 .pagina-cookies .lista-enlaces {
@@ -839,7 +912,7 @@ address {
     text-decoration: underline;
 }
 
-.pagina-cookies footer {
+footer {
     background-color: #222222;
     color: #ffffff;
     padding: 50px 0 25px 0;
@@ -857,10 +930,11 @@ address {
 }
 
 .pagina-cookies .pie-columna h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     color: #ffffff;
     margin-bottom: 20px;
     font-size: 1.1rem;
-    font-weight: 700;
     margin-top: 0;
 }
 
@@ -902,12 +976,156 @@ address {
     padding-top: 5px;
 }
 
+.cuerpo-documento-legal {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAEAEA;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.cuerpo-documento-legal * {
+    box-sizing: border-box;
+}
+
+.cuerpo-documento-legal .informacion-corporate {
+    padding: 60px 0;
+}
+
+.cuerpo-documento-legal .encabezado-principal-legal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.75rem;
+    color: #1A3668;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+.cuerpo-documento-legal .descripcion-introductoria-legal {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #333333;
+    font-size: 1.75rem;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuerpo-documento-legal .cuadrícula-regulaciones-web {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.cuerpo-documento-legal .bloque-contenido-legal {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 6px;
+    border: 2px solid #333333;
+    text-align: left;
+}
+
+.cuerpo-documento-legal .bloque-contenido-legal.seccion-resaltada {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 1.1rem;
+    border: 2px solid #1A3668;
+    background-color: #ffffff;
+}
+
+.cuerpo-documento-legal .bloque-contenido-legal h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #1A3668;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #EAEAEA;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.cuerpo-documento-legal .bloque-contenido-legal p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.cuerpo-documento-legal .bloque-contenido-legal p:last-child {
+    margin-bottom: 0;
+}
+
+.cuerpo-documento-legal .lista-detalles-privacidad {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 15px 0 0 0;
+}
+
+.cuerpo-documento-legal .lista-detalles-privacidad li {
+    font-size: 0.95rem;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.cuerpo-documento-legal .interruptor-menu-legal {
+    display: none;
+}
+
+.cuerpo-documento-legal .cuadrícula-regulaciones-web .bloque-contenido-legal:last-child {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
 
-    body,
-    html {
+    body, html {
         width: 100%;
         overflow-x: hidden;
+    }
+
+    .hero-texto h1, 
+    .pagina-privacidad .titulo-seccion, 
+    .pagina-cookies .titulo-seccion, 
+    .cuerpo-documento-legal .encabezado-principal-legal {
+        font-size: 2.25rem !important;
+    }
+
+    .titulo-seccion, 
+    .pagina-privacidad .subtitulo-seccion, 
+    .pagina-cookies .subtitulo-seccion, 
+    .cuerpo-documento-legal .descripcion-introductoria-legal {
+        font-size: 1.5rem !important;
+    }
+
+    .tarjeta-servicio h3, 
+    .ventaja-elemento h3, 
+    .pagina-privacidad .tarjeta-servicio h3, 
+    .pagina-cookies .tarjeta-servicio h3, 
+    .cuerpo-documento-legal .bloque-contenido-legal h3 {
+        font-size: 1.25rem !important;
+    }
+
+    .hero-texto p, 
+    .tarjeta-servicio p, 
+    .pagina-privacidad .tarjeta-servicio p, 
+    .pagina-cookies .tarjeta-servicio p, 
+    .cuerpo-documento-legal .bloque-contenido-legal p {
+        font-size: 1rem !important;
+    }
+
+    .pagina-cookies td {
+        font-size: 0.875rem !important;
     }
 
     .contenedor {
@@ -919,22 +1137,25 @@ address {
     .hero-cuadrícula,
     .servicios-cuadrícula,
     .ventajas-cuadrícula,
-    .pie-cuadrícula {
-        display: grid;
-        grid-template-columns: 1fr;
+    .pie-cuadrícula,
+    .pagina-cookies .servicios-cuadrícula,
+    .pagina-privacidad .servicios-cuadrícula,
+    .cuerpo-documento-legal .cuadrícula-regulaciones-web {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
         gap: 0;
         width: 100%;
         border: 2px solid #333333;
         margin: 0 0 30px 0;
-        background-color: #ffffff;
     }
 
     .hero-texto,
     .hero-contenedor-imagen,
     .tarjeta-servicio,
     .ventaja-elemento,
-    .pie-columna {
-        display: block;
+    .pie-columna,
+    .pagina-privacidad .pie-columna {
+        display: block !important;
         width: 100%;
         padding: 30px 20px;
         margin: 0;
@@ -945,7 +1166,8 @@ address {
     .hero-contenedor-imagen,
     .tarjeta-servicio:last-child,
     .ventaja-elemento:last-child,
-    .pie-columna:last-child {
+    .pie-columna:last-child,
+    .pagina-privacidad .pie-columna:last-child {
         border-bottom: none;
     }
 
@@ -960,45 +1182,47 @@ address {
         border: 2px solid #333333;
     }
 
-    .encabezado-contenedor {
-        display: flex;
+    .encabezado-contenedor, 
+    .pagina-privacidad .encabezado-contenedor, 
+    .pagina-cookies .encabezado-contenedor, 
+    .cuerpo-documento-legal .encabezado-contenedor {
+        display: flex !important;
         justify-content: space-between;
         align-items: center;
         position: relative;
     }
 
-    .logo {
+    .logo, .pagina-privacidad .logo, .cuerpo-documento-legal .logo {
         display: block;
         width: auto;
     }
 
-    .zona-navegacion {
+    .zona-navegacion, .pagina-privacidad .zona-navegacion, .cuerpo-documento-legal .zona-navegacion {
         display: block;
-        text-align: right;
     }
 
-    .alternar-menu {
-        display: inline-block;
+    .alternar-menu, .pagina-privacidad .alternar-menu, .pagina-cookies .alternar-menu, .cuerpo-documento-legal .alternar-menu {
+        display: inline-block !important;
         margin-top: 5px;
         position: relative;
         z-index: 1001;
         color: #1A3668;
     }
 
-    .menu-navegacion {
-        display: block;
+    .menu-navegacion, .pagina-privacidad .menu-navegacion, .pagina-cookies .menu-navegacion, .cuerpo-documento-legal .menu-navegacion {
+        display: block !important;
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
-        background-color: #ffffff;
+        background-color: #ffffff !important;
         border: 2px solid #333333;
         border-top: none;
         padding: 0;
         margin: 0;
         z-index: 999;
         text-align: center;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         max-height: 0;
         opacity: 0;
         visibility: hidden;
@@ -1006,40 +1230,59 @@ address {
         transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out, visibility 0.4s;
     }
 
-    .menu-navegacion li {
+    .pagina-cookies .menu-navegacion {
+        border-bottom: 2px solid #1A3668;
+        border-left: none;
+        border-right: none;
+    }
+
+    .menu-navegacion li, .pagina-privacidad .menu-navegacion li, .cuerpo-documento-legal .menu-navegacion li {
         display: block;
         margin: 0;
         padding: 12px 0;
         border-bottom: 1px solid #EAEAEA;
     }
 
-    .menu-navegacion li:last-child {
+    .pagina-cookies .menu-navegacion li {
+        padding: 0;
+    }
+
+    .menu-navegacion li:last-child, .pagina-privacidad .menu-navegacion li:last-child, .cuerpo-documento-legal .menu-navegacion li:last-child {
         border-bottom: none;
     }
 
-    .menu-navegacion a {
+    .menu-navegacion a, .pagina-privacidad .menu-navegacion a, .cuerpo-documento-legal .menu-navegacion a {
         display: block;
         font-size: 1.1rem;
         color: #333333;
     }
 
-    .menu-navegacion a:hover,
-    .menu-navegacion a.activo {
-        color: #D81E7E;
-        background-color: #EAEAEA;
+    .pagina-cookies .menu-navegacion a {
+        display: block;
+        padding: 15px 0;
+        width: 100%;
     }
 
-    .control-menu:checked~.menu-navegacion {
-        max-height: 300px;
+    .control-menu:checked ~ .menu-navegacion,
+    .pagina-privacidad .control-menu:checked ~ .menu-navegacion,
+    .pagina-cookies .control-menu:checked ~ .menu-navegacion,
+    .cuerpo-documento-legal .interruptor-menu-legal:checked ~ .menu-navegacion {
+        max-height: 350px !important;
         opacity: 1;
         visibility: visible;
     }
 
-    .control-menu:checked~.alternar-menu .icono-hamburguesa {
+    .control-menu:checked ~ .alternar-menu .icono-hamburguesa,
+    .pagina-privacidad .control-menu:checked ~ .alternar-menu .icono-hamburguesa,
+    .pagina-cookies .control-menu:checked ~ .alternar-menu .icono-hamburguesa,
+    .cuerpo-documento-legal .interruptor-menu-legal:checked ~ .alternar-menu .icono-hamburguesa {
         display: none;
     }
 
-    .control-menu:checked~.alternar-menu .icono-cerrar {
+    .control-menu:checked ~ .alternar-menu .icono-cerrar,
+    .pagina-privacidad .control-menu:checked ~ .alternar-menu .icono-cerrar,
+    .pagina-cookies .control-menu:checked ~ .alternar-menu .icono-cerrar,
+    .cuerpo-documento-legal .interruptor-menu-legal:checked ~ .alternar-menu .icono-cerrar {
         display: inline-block;
         color: #D81E7E;
     }
@@ -1053,11 +1296,6 @@ address {
         text-align: center;
     }
 
-    .hero-texto h1 {
-        font-size: 1.8rem;
-        color: #1A3668;
-    }
-
     .hero-marcador {
         height: 220px;
         margin-top: 20px;
@@ -1065,141 +1303,5 @@ address {
 
     .servicios {
         padding: 40px 0;
-    }
-
-    .pagina-privacidad .servicios-cuadrícula {
-        grid-template-columns: 1fr;
-    }
-
-    .pagina-privacidad .pie-cuadrícula {
-        display: block;
-    }
-
-    .pagina-privacidad .pie-columna {
-        display: block;
-        width: 100%;
-        padding-right: 0;
-        margin-bottom: 25px;
-    }
-
-    .pagina-privacidad .encabezado-contenedor {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .pagina-privacidad .logo {
-        display: block;
-        width: auto;
-    }
-
-    .pagina-privacidad .zona-navegacion {
-        display: block;
-    }
-
-    .pagina-privacidad .alternar-menu {
-        display: inline-block;
-        z-index: 1001;
-    }
-
-    .pagina-privacidad .menu-navegacion {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #ffffff;
-        border: 2px solid #333333;
-        border-top: none;
-        padding: 0;
-        margin: 0;
-        z-index: 999;
-        text-align: center;
-        max-height: 0;
-        opacity: 0;
-        visibility: hidden;
-        overflow: hidden;
-        transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out, visibility 0.4s;
-    }
-
-    .pagina-privacidad .menu-navegacion li {
-        display: block;
-        margin: 0;
-        padding: 12px 0;
-        border-bottom: 1px solid #EAEAEA;
-    }
-
-    .pagina-privacidad .control-menu:checked~.menu-navegacion {
-        max-height: 300px;
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .pagina-privacidad .control-menu:checked~.alternar-menu .icono-hamburguesa {
-        display: none;
-    }
-
-    .pagina-privacidad .control-menu:checked~.alternar-menu .icono-cerrar {
-        display: inline-block;
-        color: #D81E7E;
-    }
-
-    .pagina-cookies .titulo-seccion {
-        font-size: 1.8rem;
-    }
-    
-    .pagina-cookies .subtitulo-seccion {
-        font-size: 1rem;
-        padding: 0 10px;
-    }
-
-    .pagina-cookies .alternar-menu {
-        display: inline-block;
-        z-index: 1001;
-    }
-
-    .pagina-cookies .menu-navegacion {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #ffffff;
-        border-bottom: 2px solid #1A3668;
-        padding: 0;
-        z-index: 999;
-        text-align: center;
-        max-height: 0;
-        opacity: 0;
-        visibility: hidden;
-        overflow: hidden;
-        transition: max-height 0.3s ease-in-out, opacity 0.2s ease-in-out;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    }
-
-    .pagina-cookies .menu-navegacion li {
-        padding: 0;
-    }
-
-    .pagina-cookies .menu-navegacion a {
-        display: block;
-        padding: 15px 0;
-        border-top: 1px solid #EAEAEA;
-        width: 100%;
-    }
-
-    .pagina-cookies .control-menu:checked ~ .menu-navegacion {
-        max-height: 350px;
-        opacity: 1;
-        visibility: visible;
-    }
-
-    .pagina-cookies .control-menu:checked ~ .alternar-menu .icono-hamburguesa {
-        display: none;
-    }
-
-    .pagina-cookies .control-menu:checked ~ .alternar-menu .icono-cerrar {
-        display: inline-block;
-        color: #D81E7E;
     }
 }
