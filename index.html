@@ -9,34 +9,35 @@
     <title>Impronta</title>
 </head>
 <body>
-    <header>
+    <a href="#main" tabindex="1">Ir al contenido</a>
+    <header role="banner">
     <div class="contenedor encabezado-contenedor">
         <strong class="logo">
             <img src="imagenes/Logo.png" alt="Logotipo Impronta" class="logo-marcador">
         </strong>
-        <nav class="zona-navegacion">
-            <input type="checkbox" id="control-menu" class="control-menu">
+        <nav class="zona-navegacion" aria-label="Navegación principal">
+            <input type="checkbox" id="control-menu" class="control-menu" aria-hidden="true">
             <ul class="menu-navegacion">
-                <li><a href="#" class="activo">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="#" class="activo" aria-current="page">Inicio</a></li>
+                <li><a href="#Servicios">Servicios</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
             </ul>
-            <a href="#" class="boton boton-acento encabezado-boton-llamada">Presupuesto Gratis</a>
+            <a href="" class="boton boton-acento encabezado-boton-llamada">Presupuesto Gratis</a>
             <label for="control-menu" class="alternar-menu" aria-label="Alternar menú">
-                <span class="icono-hamburguesa">☰</span>
-                <span class="icono-cerrar">✕</span>
+                <span class="icono-hamburguesa" aria-hidden="true">☰</span>
+                <span class="icono-cerrar" aria-hidden="true">✕</span>
             </label>
         </nav>
     </div>
 </header>
-    <main>
+    <main id="main">
         <section class="hero">
             <div class="contenedor hero-cuadrícula">
                 <div class="hero-texto">
                     <h1>Imprimimos tus ideas, diseñamos tu éxito</h1>
                     <p>Servicios profesionales de diseño gráfico y soluciones de impresión digital, offset y gran formato con acabados premium y entrega garantizada.</p>
-                    <a href="#" class="boton boton-acento">Ver Servicios</a>
+                    <a href="#Servicios" class="boton boton-acento">Ver Servicios</a>
                 </div>
                 <figure class="hero-contenedor-imagen">
                     <img src="imagenes/Maquinaria.jpg" alt="Maquinaria de impresión moderna y pantallas con diseños gráficos" class="hero-marcador">
@@ -50,31 +51,31 @@
                 
                 <div class="servicios-cuadrícula">
                     <article class="tarjeta-servicio">
-                        <img src="imagenes/DiseñoGrafico.png" alt="Icono de Diseño Gráfico" class="servicio-icono">
+                        <img src="imagenes/DiseñoGrafico.png" alt="" aria-hidden="true" class="servicio-icono">
                         <h3>Diseño Gráfico</h3>
                         <p>Identidad corporativa, branding, logotipos y desarrollo visual de marca.</p>
-                        <a href="#">Saber más &rarr;</a>
+                        <a href="#" aria-label="Saber más sobre Diseño Gráfico">Saber más &rarr;</a>
                     </article>
 
                     <article class="tarjeta-servicio">
-                        <img src="imagenes/ImpresionDigitalYOffset.png" alt="Icono de Impresión Digital y Offset" class="servicio-icono">
+                        <img src="imagenes/ImpresionDigitalYOffset.png" alt="" aria-hidden="true" class="servicio-icono">
                         <h3>Impresión Digital / Offset</h3>
                         <p>Tarjetas de visita, folletos, flyers, catálogos y papelería corporativa.</p>
-                        <a href="#">Saber más &rarr;</a>
+                        <a href="#" aria-label="Saber más sobre Impresión Digital y Offset">Saber más &rarr;</a>
                     </article>
 
                     <article class="tarjeta-servicio">
-                        <img src="imagenes/GranFormato.png" alt="Icono de Gran Formato" class="servicio-icono">
+                        <img src="imagenes/GranFormato.png" alt="" aria-hidden="true" class="servicio-icono">
                         <h3>Gran Formato</h3>
                         <p>Vinilos comerciales, lonas publicitarias, roll-ups y cartelería exterior.</p>
-                        <a href="#">Saber más &rarr;</a>
+                        <a href="#" aria-label="Saber más sobre Gran Formato">Saber más &rarr;</a>
                     </article>
 
                     <article class="tarjeta-servicio">
-                        <img src="imagenes/Merchandising.png" alt="Icono de Merchandising" class="servicio-icono">
+                        <img src="imagenes/Merchandising.png" alt="" aria-hidden="true" class="servicio-icono">
                         <h3>Merchandising</h3>
                         <p>Camisetas personalizadas, tazas, bolígrafos y regalos de empresa únicos.</p>
-                        <a href="#">Saber más &rarr;</a>
+                        <a href="#" aria-label="Saber más sobre Merchandising">Saber más &rarr;</a>
                     </article>
                 </div>
             </div>
@@ -86,19 +87,19 @@
                 
                 <div class="ventajas-cuadrícula">
                     <div class="ventaja-elemento">
-                        <img src="imagenes/EntregaRapida.png" alt="Icono de Entrega Rápida" class="ventaja-icono">
+                        <img src="imagenes/EntregaRapida.png" alt="" aria-hidden="true" class="ventaja-icono">
                         <h3>Rapidez 24h/48h</h3>
                         <p>Cumplimos rigurosamente con los plazos de entrega pactados.</p>
                     </div>
 
                     <div class="ventaja-elemento">
-                        <img src="imagenes/CalidadPrimum.png" alt="Icono de Calidad Premium" class="ventaja-icono">
+                        <img src="imagenes/CalidadPrimum.png" alt="" aria-hidden="true" class="ventaja-icono">
                         <h3>Calidad Premium</h3>
                         <p>Equipos de última generación y materiales de primera clase.</p>
                     </div>
 
                     <div class="ventaja-elemento">
-                        <img src="imagenes/RevisionGratuita.png" alt="Icono de Revisión Gratuita" class="ventaja-icono">
+                        <img src="imagenes/RevisionGratuita.png" alt="" aria-hidden="true" class="ventaja-icono">
                         <h3>Revisión Gratuita</h3>
                         <p>Analizamos tus archivos antes de imprimir para evitar errores.</p>
                     </div>
@@ -125,11 +126,13 @@
         <section class="testimonios">
             <blockquote class="contenedor testimonio-contenedor">
                 <p class="testimonio-texto">"Cita de la empresa"</p>
-                <cite class="testimonio-autor">— Nombre Apellidos | Puesto de trabajo</cite>
+                <footer aria-label="Autor del testimonio">
+                    <cite class="testimonio-autor">— Nombre Apellidos | Puesto de trabajo</cite>
+                </footer>
             </blockquote>
         </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
         <div class="contenedor pie-cuadrícula">
             <div class="pie-columna">
                 <h4>Estudio Impresión</h4>
@@ -145,7 +148,7 @@
                     <li><a href="index.html#contacto">Contacto y Ubicación</a></li>
                 </ul>
             </div>
-            <div class="pie-columna">
+            <div class="pie-columna" id="Contacto">
                 <h4>Contacto</h4>
                 <address>
                     <p>📍 Av. de la -----, XX - Madrid</p>

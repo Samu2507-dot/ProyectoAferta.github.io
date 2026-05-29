@@ -17,6 +17,15 @@ body {
     font-weight: 400;
 }
 
+body>a {
+    position: absolute;
+    left: -1000px;
+}
+
+body>a:focus {
+    position: static;
+}
+
 strong, b, .texto-resaltado {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
